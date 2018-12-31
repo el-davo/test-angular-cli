@@ -1,0 +1,10 @@
+dependencies:
+  image: node:8
+  command:
+    - "yarn"
+
+tasks:
+  - image: node:8
+    command: "yarn start"
+  - image: node:8
+    command: "yarn start"
