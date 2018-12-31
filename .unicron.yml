@@ -6,5 +6,5 @@ dependencies:
 tasks:
   - image: node:8
     command: "yarn start"
-  - image: node:8
-    command: "yarn start"
+  - image: markadams/chromium-xvfb-js
+    command: "yarn test"
