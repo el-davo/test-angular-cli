@@ -4,7 +4,9 @@ dependencies:
     - "yarn"
 
 tasks:
-  - image: node:9
+  - name: app
+    image: node:9
     command: "yarn start"
-  - image: markadams/chromium-xvfb-js
+  - name: unit_tests
+    image: markadams/chromium-xvfb-js
     command: "npm run test"
