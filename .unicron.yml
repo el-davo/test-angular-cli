@@ -1,12 +1,12 @@
 beforeTasks:
-  image: node:alpine
+  image: alpine
   command:
     - "echo Hello"
 
 tasks:
   - name: app
-    image: node:alpine
+    image: alpine
     command: "sleep 10m"
   - name: random
-    image: node:alpine
+    image: alpine
     command: "sleep 10m"
