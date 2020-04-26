@@ -6,7 +6,7 @@ beforeTasks:
 tasks:
   - name: app
     image: node:9
-    command: "echo node --version && sleep 10m"
+    command: "sleep 10m"
   - name: random
     image: node:9
-    command: "echo npm --version && sleep 10m"
+    command: "sleep 10m"
