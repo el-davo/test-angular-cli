@@ -1,7 +1,7 @@
 beforeTasks:
-  image: node:9
+  image: node:alpine
   command:
-    - "yarn --version"
+    - "echo Hello"
 
 tasks:
   - name: app
