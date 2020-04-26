@@ -1,4 +1,4 @@
-dependencies:
+beforeTasks:
   image: node:9
   command:
     - "yarn"
@@ -7,6 +7,6 @@ tasks:
   - name: app
     image: node:9
     command: "yarn start"
-  - name: unit_tests
-    image: markadams/chromium-xvfb-js
-    command: "npm run test"
+  - name: lint
+    image: node:9
+    command: "yarn lint"
