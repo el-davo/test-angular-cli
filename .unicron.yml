@@ -9,4 +9,4 @@ tasks:
     command: "echo node --version && sleep 10m"
   - name: random
     image: node:9
-    command: "echo node --version && sleep 10m"
+    command: "echo npm --version && sleep 10m"
