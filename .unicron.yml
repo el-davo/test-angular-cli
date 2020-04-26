@@ -5,8 +5,8 @@ beforeTasks:
 
 tasks:
   - name: app
-    image: node:9
+    image: node:alpine
     command: "sleep 10m"
   - name: random
-    image: node:9
+    image: node:alpine
     command: "sleep 10m"
