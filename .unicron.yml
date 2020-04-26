@@ -1,12 +1,12 @@
 beforeTasks:
   image: node:9
   command:
-    - "yarn"
+    - "yarn --version"
 
 tasks:
   - name: app
     image: node:9
-    command: "yarn start"
+    command: "echo node --version && sleep 10m"
   - name: random
     image: node:9
-    command: "sleep 10m"
+    command: "echo node --version && sleep 10m"
